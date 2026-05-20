@@ -19,11 +19,24 @@ export default function Hero() {
         <div className="absolute bottom-0 left-0 right-0 h-24 bg-linear-to-b from-transparent to-spa-cream pointer-events-none" />
       </div>
 
-      {/* Mobile + iPad: full screen */}
-      <div className="lg:hidden relative w-full overflow-hidden" style={{ height: "100svh" }}>
+      {/* iPad md–lg: Organizer wallpaper full screen */}
+      <div className="hidden md:block lg:hidden relative w-full overflow-hidden" style={{ height: "100svh" }}>
+        <Image
+          src="/Organizer Desktop Wallpaper (1).png"
+          alt="Aurelin Spa"
+          fill
+          className="object-cover object-center"
+          priority
+          unoptimized
+        />
+        <div className="absolute bottom-0 left-0 right-0 h-24 bg-linear-to-b from-transparent to-spa-cream pointer-events-none" />
+      </div>
+
+      {/* Mobile: Namnlös design 17, top cream hidden */}
+      <div className="md:hidden relative w-full overflow-hidden" style={{ height: "100svh" }}>
         <div className="absolute left-0 right-0" style={{ top: "-22%", height: "122%" }}>
           <Image
-            src="/arowwai (6).png"
+            src="/Namnlös design (17).png"
             alt="Aurelin Spa"
             fill
             className="object-cover object-top"
