@@ -4,58 +4,58 @@ import { motion } from "motion/react";
 
 const testimonials = [
   {
-    text: "Spa Aurelin completely transformed my understanding of relaxation. The hot stone massage left me feeling reborn — I booked again the same day.",
+    text: "Spa Aurelin förändrade helt min förståelse för avkoppling. Varm sten-massagen fick mig att känna mig pånyttfödd — jag bokade om samma dag.",
     image: "https://randomuser.me/api/portraits/women/1.jpg",
     name: "Isabelle Fontaine",
-    role: "Interior Designer",
+    role: "Inredningsdesigner",
   },
   {
-    text: "The deep tissue treatment was precise and restorative. The therapists here truly listen to your body. Nothing short of exceptional.",
+    text: "Djupvävnadsbehandlingen var precis och återhämtande. Terapeuterna här lyssnar verkligen på din kropp. Inget annat än enastående.",
     image: "https://randomuser.me/api/portraits/men/2.jpg",
     name: "Marcus Reinholt",
-    role: "Architect",
+    role: "Arkitekt",
   },
   {
-    text: "From the moment I stepped in, I felt at peace. The signature facial left my skin glowing for weeks. Pure luxury without pretension.",
+    text: "Från det ögonblick jag klev in kände jag frid. Signaturansiktsbehandlingen fick min hud att glöda i veckor. Ren lyx utan pretension.",
     image: "https://randomuser.me/api/portraits/women/3.jpg",
     name: "Selin Arslan",
-    role: "Creative Director",
+    role: "Kreativ Direktör",
   },
   {
-    text: "I've visited spas around the world. Aurelin is in a different league — the treatments feel curated, not rushed. My go-to retreat.",
+    text: "Jag har besökt spa runt om i världen. Aurelin är i en annan liga — behandlingarna känns omsorgsfullt utvalda, inte stressade. Min favoritretreat.",
     image: "https://randomuser.me/api/portraits/men/4.jpg",
     name: "Daniel Osei",
-    role: "Consultant",
+    role: "Konsult",
   },
   {
-    text: "The hydrotherapy circuit was unlike anything I'd experienced. I arrived tense and left feeling years younger. Absolutely worth every minute.",
+    text: "Hydroterapin var olikt något jag upplevt. Jag anlände spänd och lämnade med känslan av att vara år yngre. Absolut värt varje minut.",
     image: "https://randomuser.me/api/portraits/women/5.jpg",
     name: "Nora Lindqvist",
-    role: "Photographer",
+    role: "Fotograf",
   },
   {
-    text: "Impeccable service, serene ambiance, and treatments that actually deliver results. Aurelin has earned my complete trust.",
+    text: "Oklanderlig service, fridfull miljö och behandlingar som faktiskt ger resultat. Aurelin har förtjänat mitt fulla förtroende.",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
     name: "Chiara Moretti",
-    role: "Editor",
+    role: "Redaktör",
   },
   {
-    text: "My partner and I did the couples session and it was the best day of our year. The staff makes you feel genuinely cared for.",
+    text: "Min partner och jag gjorde parbehandlingen och det var den bästa dagen på vårt år. Personalen får dig att känna dig genuint omhändertagen.",
     image: "https://randomuser.me/api/portraits/men/7.jpg",
     name: "Tom Hargreaves",
-    role: "Product Manager",
+    role: "Produktchef",
   },
   {
-    text: "The botanical body wrap was transcendent. I left with the softest skin and clearest mind I've had in months. See you next week.",
+    text: "Den botaniska kroppsinpackningen var transcendent. Jag lämnade med den mjukaste huden och klaraste sinnet på månader. Ses nästa vecka.",
     image: "https://randomuser.me/api/portraits/women/8.jpg",
     name: "Amara Diallo",
-    role: "Wellness Coach",
+    role: "Hälsocoach",
   },
   {
-    text: "Everything about Aurelin communicates care — from the scent in the hallway to the warmth of the therapists. This is what wellness should feel like.",
+    text: "Allt på Aurelin kommunicerar omsorg — från doften i korridoren till terapeuternas värme. Så här ska välbefinnande kännas.",
     image: "https://randomuser.me/api/portraits/men/9.jpg",
     name: "Jonas Eriksson",
-    role: "Entrepreneur",
+    role: "Entreprenör",
   },
 ];
 
@@ -127,11 +127,11 @@ export const Testimonials = () => {
         >
           <div>
             <span className="text-xs font-black tracking-[0.25em] uppercase text-spa-muted">
-              Testimonials
+              Omdömen
             </span>
             <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-spa-wine mt-2 leading-none">
-              What our<br />
-              <span className="text-spa-dark">guests say</span>
+              Vad våra<br />
+              <span className="text-spa-dark">gäster säger</span>
             </h2>
           </div>
         </motion.div>

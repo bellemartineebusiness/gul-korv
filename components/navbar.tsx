@@ -4,10 +4,10 @@ import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 const links = [
-  { href: "#treatments", label: "Treatments" },
-  { href: "#about", label: "About" },
-  { href: "#testimonials", label: "Reviews" },
-  { href: "#contact", label: "Contact" },
+  { href: "#treatments", label: "Behandlingar" },
+  { href: "#about", label: "Om oss" },
+  { href: "#testimonials", label: "Recensioner" },
+  { href: "#contact", label: "Kontakt" },
 ];
 
 export default function Navbar() {
@@ -33,7 +33,7 @@ export default function Navbar() {
           href="#contact"
           className="hidden md:inline-flex items-center text-xs font-black uppercase tracking-[0.15em] px-5 py-2.5 bg-spa-wine text-spa-cream hover:bg-spa-wine-light transition-colors duration-300"
         >
-          Book Now
+          Boka nu
         </a>
 
         <button
@@ -69,7 +69,7 @@ export default function Navbar() {
                 onClick={() => setOpen(false)}
                 className="bg-spa-wine text-spa-cream font-black uppercase tracking-[0.15em] px-5 py-4 text-center text-xs mt-3"
               >
-                Book Now
+                Boka nu
               </a>
             </div>
           </motion.div>

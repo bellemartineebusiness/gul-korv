@@ -6,50 +6,50 @@ import { Leaf, Droplets, Flame, Sparkles, Wind, Heart } from "lucide-react";
 const treatments = [
   {
     icon: Flame,
-    name: "Hot Stone Massage",
+    name: "Varm Sten Massage",
     duration: "90 min",
     description:
-      "Smooth volcanic stones melt away tension while warming muscles deep in the tissue. Deeply grounding and restorative.",
+      "Vulkaniska stenar smälter bort spänningar och värmer musklerna på djupet. Djupgående och återhämtande.",
     image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
   },
   {
     icon: Sparkles,
-    name: "Luminous Facial",
+    name: "Lysande Ansiktsbehandling",
     duration: "60 min",
     description:
-      "Our signature facial uses botanical actives to resurface, brighten, and restore natural radiance to every skin type.",
+      "Vår signaturbehandling använder botaniska ämnen för att förnya, lysa upp och återge naturlig strålning till alla hudtyper.",
     image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80",
   },
   {
     icon: Droplets,
-    name: "Hydrotherapy Circuit",
+    name: "Hydroterapi",
     duration: "120 min",
     description:
-      "A guided journey through contrast pools, steam rooms, and cold plunge — resetting the nervous system from the inside out.",
+      "En guidad resa genom kontrastbad, ångrum och kalla bad — som återställer nervsystemet inifrån och ut.",
     image: "https://images.unsplash.com/photo-1591343395082-e120087004b4?w=800&q=80",
   },
   {
     icon: Leaf,
-    name: "Botanical Body Wrap",
+    name: "Botanisk Kroppsinpackning",
     duration: "75 min",
     description:
-      "Rich plant extracts are applied, then sealed with warmth to detoxify, soften, and nourish the skin from head to toe.",
+      "Rika växtextrakt appliceras och försluts med värme för att avgifta, mjukgöra och nära huden från topp till tå.",
     image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&q=80",
   },
   {
     icon: Wind,
-    name: "Aromatherapy Massage",
+    name: "Aromaterapi Massage",
     duration: "60 min",
     description:
-      "Pure essential oils blended to your mood and applied through a slow, intuitive massage to calm the mind and body.",
+      "Rena eteriska oljor blandas efter ditt humör och appliceras genom en långsam, intuitiv massage för att lugna sinnet och kroppen.",
     image: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&q=80",
   },
   {
     icon: Heart,
-    name: "Couples Treatment",
+    name: "Parbehandling",
     duration: "2 × 90 min",
     description:
-      "A private experience designed for two — shared warmth, parallel treatments, and an unhurried afternoon of togetherness.",
+      "En privat upplevelse för två — delad värme, parallella behandlingar och en ostörd eftermiddag tillsammans.",
     image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80",
   },
 ];
@@ -67,17 +67,17 @@ export default function Services() {
         >
           <div>
             <span className="text-xs font-black tracking-[0.25em] uppercase text-spa-muted">
-              Our Treatments
+              Våra behandlingar
             </span>
             <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-spa-wine mt-2 leading-none">
-              Curated<br />for you
+              Skapat<br />för dig
             </h2>
           </div>
           <a
             href="#contact"
             className="self-start sm:self-auto text-xs font-black uppercase tracking-[0.15em] text-spa-wine border border-spa-wine/30 px-5 py-3 hover:bg-spa-wine hover:text-spa-cream transition-colors duration-300"
           >
-            Book a visit
+            Boka ett besök
           </a>
         </motion.div>
 
@@ -118,7 +118,7 @@ export default function Services() {
                     href="#contact"
                     className="mt-4 inline-flex items-center gap-1.5 text-spa-wine font-black text-xs uppercase tracking-[0.15em] group/link"
                   >
-                    Book
+                    Boka
                     <span className="group-hover/link:translate-x-1 transition-transform">→</span>
                   </a>
                 </div>

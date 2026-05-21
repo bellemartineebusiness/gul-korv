@@ -3,10 +3,10 @@ import { motion } from "motion/react";
 import Image from "next/image";
 
 const stats = [
-  { value: "12+", label: "Years of craft" },
-  { value: "40+", label: "Treatments offered" },
-  { value: "8K+", label: "Guests served" },
-  { value: "100%", label: "Natural ingredients" },
+  { value: "12+", label: "Års erfarenhet" },
+  { value: "40+", label: "Behandlingar" },
+  { value: "8K+", label: "Nöjda gäster" },
+  { value: "100%", label: "Naturliga ingredienser" },
 ];
 
 export default function About() {
@@ -49,36 +49,36 @@ export default function About() {
             viewport={{ once: true }}
           >
             <span className="text-xs font-black tracking-[0.25em] uppercase text-spa-muted">
-              Our Philosophy
+              Vår filosofi
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-tighter text-spa-wine mt-3 leading-none">
-              Stillness is<br />not a luxury.<br />
-              <span className="text-spa-dark">It&apos;s a necessity.</span>
+              Stillhet är<br />inte en lyx.<br />
+              <span className="text-spa-dark">Det är en nödvändighet.</span>
             </h2>
             <p className="text-spa-muted leading-relaxed mt-6 md:mt-8 max-w-md text-sm md:text-base">
-              At Aurelin, we believe the body knows how to heal — it simply
-              needs the right conditions. Since 2035, we have built a place
-              where noise gives way to presence, and every treatment is
-              conceived as an act of deep care.
+              På Aurelin tror vi att kroppen vet hur den läker — den behöver
+              bara rätt förutsättningar. Sedan 2035 har vi skapat en plats
+              där buller lämnar rum för närvaro, och varje behandling är
+              utformad som en akt av djup omsorg.
             </p>
             <p className="text-spa-muted leading-relaxed mt-4 max-w-md text-sm md:text-base">
-              We work exclusively with organic, ethically-sourced botanicals. Our
-              therapists are trained in traditions drawn from Swedish, Balinese,
-              and Ayurvedic lineages — unified by a single intention: to leave
-              you more fully yourself.
+              Vi arbetar uteslutande med ekologiska, etiskt framtagna botaniska
+              ämnen. Våra terapeuter är utbildade i traditioner från svenska,
+              balinesiska och ayurvediska linjer — förenade av en enda intention:
+              att lämna dig mer fullt dig själv.
             </p>
             <div className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-3 md:gap-4">
               <a
                 href="#contact"
                 className="inline-flex items-center justify-center bg-spa-wine text-spa-cream font-black uppercase tracking-[0.15em] text-xs px-7 py-4 hover:bg-spa-wine-light transition-colors duration-300"
               >
-                Reserve your visit
+                Boka ditt besök
               </a>
               <a
                 href="#treatments"
                 className="inline-flex items-center justify-center border border-spa-wine/30 text-spa-wine font-black uppercase tracking-[0.15em] text-xs px-7 py-4 hover:bg-spa-wine hover:text-spa-cream transition-colors duration-300"
               >
-                See treatments
+                Se behandlingar
               </a>
             </div>
           </motion.div>
@@ -109,7 +109,7 @@ export default function About() {
             >
               <div className="text-3xl md:text-4xl font-black tracking-tighter leading-none">2035</div>
               <div className="text-xs font-black tracking-[0.15em] uppercase text-spa-cream/60 mt-1">
-                Founded in Rimberio
+                Grundat i Rimberio
               </div>
             </motion.div>
           </motion.div>

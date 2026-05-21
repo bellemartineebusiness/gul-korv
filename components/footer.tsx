@@ -1,16 +1,16 @@
 import { Globe, Share2 } from "lucide-react";
 
 const links = {
-  Treatments: [
-    "Hot Stone Massage",
-    "Luminous Facial",
-    "Hydrotherapy Circuit",
-    "Botanical Body Wrap",
-    "Aromatherapy Massage",
-    "Couples Treatment",
+  Behandlingar: [
+    "Varm Sten Massage",
+    "Lysande Ansiktsbehandling",
+    "Hydroterapi",
+    "Botanisk Kroppsinpackning",
+    "Aromaterapi Massage",
+    "Parbehandling",
   ],
-  Company: ["About Us", "Our Team", "Gift Cards", "Membership", "Careers"],
-  Legal: ["Privacy Policy", "Terms of Service", "Cookie Policy"],
+  Företag: ["Om oss", "Vårt team", "Presentkort", "Medlemskap", "Karriär"],
+  Juridiskt: ["Integritetspolicy", "Användarvillkor", "Cookiepolicy"],
 };
 
 export default function Footer() {
@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-12 md:pt-16 pb-8 md:pb-10">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 mb-12 md:mb-16">
           {Object.entries(links).map(([category, items]) => (
-            <div key={category} className={category === "Legal" ? "col-span-2 md:col-span-1" : ""}>
+            <div key={category} className={category === "Juridiskt" ? "col-span-2 md:col-span-1" : ""}>
               <div className="text-xs font-black tracking-[0.25em] uppercase text-spa-wine mb-4 md:mb-5">
                 {category}
               </div>

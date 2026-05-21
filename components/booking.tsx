@@ -3,10 +3,10 @@ import { motion } from "motion/react";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const info = [
-  { icon: Phone, label: "Phone", value: "+123-456-7890", href: "tel:+1234567890" },
-  { icon: Mail, label: "Email", value: "hello@spaaurelin.com", href: "mailto:hello@spaaurelin.com" },
-  { icon: MapPin, label: "Location", value: "12 Rimberio Street, District One", href: "#" },
-  { icon: Clock, label: "Hours", value: "Mon–Sun  9:00 AM – 9:00 PM", href: "#" },
+  { icon: Phone, label: "Telefon", value: "+123-456-7890", href: "tel:+1234567890" },
+  { icon: Mail, label: "E-post", value: "hello@spaaurelin.com", href: "mailto:hello@spaaurelin.com" },
+  { icon: MapPin, label: "Adress", value: "12 Rimberio Street, District One", href: "#" },
+  { icon: Clock, label: "Öppettider", value: "Mån–Sön  09:00–21:00", href: "#" },
 ];
 
 export default function Booking() {
@@ -22,11 +22,11 @@ export default function Booking() {
         >
           <div>
             <span className="text-xs font-black tracking-[0.25em] uppercase text-spa-muted">
-              Book a Visit
+              Boka ett besök
             </span>
             <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-spa-wine mt-2 leading-none">
-              Reserve your<br />
-              <span className="text-spa-dark">moment.</span>
+              Boka ditt<br />
+              <span className="text-spa-dark">ögonblick.</span>
             </h2>
           </div>
         </motion.div>
@@ -61,8 +61,8 @@ export default function Booking() {
 
             <div className="pt-6 border-t border-spa-wine/10">
               <p className="text-spa-muted text-sm leading-relaxed max-w-sm">
-                Our team will confirm your appointment within two hours.
-                We look forward to welcoming you to Aurelin.
+                Vårt team bekräftar din bokning inom två timmar.
+                Vi ser fram emot att välkomna dig till Aurelin.
               </p>
             </div>
           </motion.div>
@@ -79,7 +79,7 @@ export default function Booking() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="text-xs font-black tracking-[0.15em] uppercase text-spa-muted block mb-2">
-                    First name
+                    Förnamn
                   </label>
                   <input
                     type="text"
@@ -89,7 +89,7 @@ export default function Booking() {
                 </div>
                 <div>
                   <label className="text-xs font-black tracking-[0.15em] uppercase text-spa-muted block mb-2">
-                    Last name
+                    Efternamn
                   </label>
                   <input
                     type="text"
@@ -101,7 +101,7 @@ export default function Booking() {
 
               <div>
                 <label className="text-xs font-black tracking-[0.15em] uppercase text-spa-muted block mb-2">
-                  Email address
+                  E-post
                 </label>
                 <input
                   type="email"
@@ -112,22 +112,22 @@ export default function Booking() {
 
               <div>
                 <label className="text-xs font-black tracking-[0.15em] uppercase text-spa-muted block mb-2">
-                  Treatment
+                  Behandling
                 </label>
                 <select className="w-full border border-spa-wine/15 bg-spa-cream px-4 py-3 text-spa-dark/70 text-sm focus:outline-none focus:border-spa-wine/50 transition-colors appearance-none">
-                  <option value="">Select a treatment</option>
-                  <option>Hot Stone Massage</option>
-                  <option>Luminous Facial</option>
-                  <option>Hydrotherapy Circuit</option>
-                  <option>Botanical Body Wrap</option>
-                  <option>Aromatherapy Massage</option>
-                  <option>Couples Treatment</option>
+                  <option value="">Välj en behandling</option>
+                  <option>Varm Sten Massage</option>
+                  <option>Lysande Ansiktsbehandling</option>
+                  <option>Hydroterapi</option>
+                  <option>Botanisk Kroppsinpackning</option>
+                  <option>Aromaterapi Massage</option>
+                  <option>Parbehandling</option>
                 </select>
               </div>
 
               <div>
                 <label className="text-xs font-black tracking-[0.15em] uppercase text-spa-muted block mb-2">
-                  Preferred date
+                  Önskat datum
                 </label>
                 <input
                   type="date"
@@ -137,10 +137,10 @@ export default function Booking() {
 
               <div>
                 <label className="text-xs font-black tracking-[0.15em] uppercase text-spa-muted block mb-2">
-                  Message (optional)
+                  Meddelande (valfritt)
                 </label>
                 <textarea
-                  placeholder="Any special requests..."
+                  placeholder="Eventuella önskemål..."
                   rows={3}
                   className="w-full border border-spa-wine/15 bg-spa-cream px-4 py-3 text-spa-dark placeholder-spa-muted/50 text-sm focus:outline-none focus:border-spa-wine/50 transition-colors resize-none"
                 />
@@ -150,7 +150,7 @@ export default function Booking() {
                 type="submit"
                 className="w-full bg-spa-wine text-spa-cream font-black uppercase tracking-[0.15em] text-xs py-4 hover:bg-spa-wine-light transition-colors duration-300"
               >
-                Send Request
+                Skicka förfrågan
               </button>
             </form>
           </motion.div>

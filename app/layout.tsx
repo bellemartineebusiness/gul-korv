@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Spa Aurelin — Rediscover Your Inner Calm",
+  title: "Spa Aurelin — Återupptäck ditt inre lugn",
   description:
-    "Experience transformative spa treatments at Spa Aurelin. Massages, facials, hydrotherapy and more in a serene setting.",
+    "Upplev transformerande spa-behandlingar hos Spa Aurelin. Massage, ansiktsbehandlingar, hydroterapi och mer i en fridfull miljö.",
 };
 
 export default function RootLayout({
