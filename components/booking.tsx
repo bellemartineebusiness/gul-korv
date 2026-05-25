@@ -22,11 +22,11 @@ export default function Booking() {
         >
           <div>
             <span className="text-xs font-black tracking-[0.25em] uppercase text-spa-muted">
-              Boka ett besök
+              Kontakta oss
             </span>
             <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-spa-wine mt-2 leading-none">
-              Boka ditt<br />
-              <span className="text-spa-dark">ögonblick.</span>
+              Vi ser fram<br />
+              <span className="text-spa-dark">emot dig.</span>
             </h2>
           </div>
         </motion.div>
@@ -61,8 +61,8 @@ export default function Booking() {
 
             <div className="pt-6 border-t border-spa-wine/10">
               <p className="text-spa-muted text-sm leading-relaxed max-w-sm">
-                Vårt team bekräftar din bokning inom två timmar.
-                Vi ser fram emot att välkomna dig till Aurelin.
+                Vi bekräftar din bokning inom två timmar och ser
+                verkligen fram emot att välkomna dig till Aurelin!
               </p>
             </div>
           </motion.div>

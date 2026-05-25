@@ -49,23 +49,21 @@ export default function About() {
             viewport={{ once: true }}
           >
             <span className="text-xs font-black tracking-[0.25em] uppercase text-spa-muted">
-              Vår filosofi
+              Om oss
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-tighter text-spa-wine mt-3 leading-none">
-              Stillhet är<br />inte en lyx.<br />
-              <span className="text-spa-dark">Det är en nödvändighet.</span>
+              Du förtjänar<br />att ha det bra.<br />
+              <span className="text-spa-dark">På riktigt.</span>
             </h2>
             <p className="text-spa-muted leading-relaxed mt-6 md:mt-8 max-w-md text-sm md:text-base">
-              På Aurelin tror vi att kroppen vet hur den läker — den behöver
-              bara rätt förutsättningar. Sedan 2035 har vi skapat en plats
-              där buller lämnar rum för närvaro, och varje behandling är
-              utformad som en akt av djup omsorg.
+              Välkommen till Aurelin — en plats skapad för dig som vill ta hand
+              om sig själv. Sedan 2035 har vi hjälpt tusentals gäster att slappna
+              av, återhämta sig och må riktigt bra. Hos oss är du alltid i fokus.
             </p>
             <p className="text-spa-muted leading-relaxed mt-4 max-w-md text-sm md:text-base">
-              Vi arbetar uteslutande med ekologiska, etiskt framtagna botaniska
-              ämnen. Våra terapeuter är utbildade i traditioner från svenska,
-              balinesiska och ayurvediska linjer — förenade av en enda intention:
-              att lämna dig mer fullt dig själv.
+              Vi använder bara ekologiska och naturliga ingredienser. Våra
+              erfarna terapeuter lyssnar på dig och anpassar varje behandling
+              så att du får precis det du behöver — varje gång.
             </p>
             <div className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-3 md:gap-4">
               <a

@@ -130,8 +130,8 @@ export const Testimonials = () => {
               Omdömen
             </span>
             <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-spa-wine mt-2 leading-none">
-              Vad våra<br />
-              <span className="text-spa-dark">gäster säger</span>
+              Våra gäster<br />
+              <span className="text-spa-dark">älskar oss</span>
             </h2>
           </div>
         </motion.div>

@@ -9,7 +9,7 @@ const treatments = [
     name: "Varm Sten Massage",
     duration: "90 min",
     description:
-      "Vulkaniska stenar smälter bort spänningar och värmer musklerna på djupet. Djupgående och återhämtande.",
+      "Låt varma vulkaniska stenar smälta bort din stress och ge musklerna den avkoppling de verkligen behöver. Du lämnar som en ny människa.",
     image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
   },
   {
@@ -17,7 +17,7 @@ const treatments = [
     name: "Lysande Ansiktsbehandling",
     duration: "60 min",
     description:
-      "Vår signaturbehandling använder botaniska ämnen för att förnya, lysa upp och återge naturlig strålning till alla hudtyper.",
+      "Ge din hud lite extra kärlek med vår populära ansiktsbehandling. Naturliga ingredienser återger din lyster och du lämnar med huden glödande.",
     image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80",
   },
   {
@@ -25,7 +25,7 @@ const treatments = [
     name: "Hydroterapi",
     duration: "120 min",
     description:
-      "En guidad resa genom kontrastbad, ångrum och kalla bad — som återställer nervsystemet inifrån och ut.",
+      "Njut av en skön resa genom varma bad, ångrum och uppfriskande kallbad. Perfekt för dig som vill ladda om och känna dig riktigt pigg igen.",
     image: "https://images.unsplash.com/photo-1591343395082-e120087004b4?w=800&q=80",
   },
   {
@@ -33,7 +33,7 @@ const treatments = [
     name: "Botanisk Kroppsinpackning",
     duration: "75 min",
     description:
-      "Rika växtextrakt appliceras och försluts med värme för att avgifta, mjukgöra och nära huden från topp till tå.",
+      "Upplev hur växtbaserade extrakt mjukgör och vårdar din hud från topp till tå. Du lämnar med mjukare hud och ett lugnt, avslappnat sinne.",
     image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&q=80",
   },
   {
@@ -41,7 +41,7 @@ const treatments = [
     name: "Aromaterapi Massage",
     duration: "60 min",
     description:
-      "Rena eteriska oljor blandas efter ditt humör och appliceras genom en långsam, intuitiv massage för att lugna sinnet och kroppen.",
+      "Doftande oljor anpassade just efter dig, kombinerade med en skön massage som tar bort spänningar och fyller dig med ro.",
     image: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=800&q=80",
   },
   {
@@ -49,7 +49,7 @@ const treatments = [
     name: "Parbehandling",
     duration: "2 × 90 min",
     description:
-      "En privat upplevelse för två — delad värme, parallella behandlingar och en ostörd eftermiddag tillsammans.",
+      "Dela en riktigt fin stund med någon du tycker om. Parallella behandlingar i ett eget rum — det perfekta sättet att unna er något extra.",
     image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80",
   },
 ];
@@ -70,7 +70,7 @@ export default function Services() {
               Våra behandlingar
             </span>
             <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-spa-wine mt-2 leading-none">
-              Skapat<br />för dig
+              Välj din<br />upplevelse
             </h2>
           </div>
           <a
